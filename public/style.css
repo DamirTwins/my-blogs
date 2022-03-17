@@ -1,0 +1,351 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1440px;
+}
+
+.header {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-family: Cormorant Garamond;
+    color: #B08EAD;
+}
+
+.nav{
+    font-size: 24px;
+    flex-direction: row;
+    display: flex;
+    margin-left: 500px;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #B08EAD;
+}
+
+.logo{
+    margin-bottom: 24px;
+    margin-top: 33px;
+    margin-left: 113px;
+}
+
+.korzina{
+    margin-right: 140px;
+}
+
+.background{
+    background-color: #C9ADC6;
+    height: 817px;
+    position: relative;
+}
+
+.podushka{
+    width: 851px;
+    line-height: 675px;
+    margin-top: 72px;
+    margin-left: 178px;
+    margin-bottom: 70px;
+}
+
+.text1{
+    background: #B08EAD;
+    position: absolute;
+    margin-top: -630px;
+    width: 425px;
+    height: 420px;
+    margin-left: 902px;
+    color: white;
+}
+
+.spring{
+    font-size: 40px;
+}
+
+.new{
+    font-family: Roboto;
+    font-size: 24px;
+    margin-top: 124px;
+    margin-left: 40px;
+}
+
+.spring{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.background a{
+    font-family: Roboto;
+    margin-left: 40px;
+    margin-top: 22px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.text2, .radius{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.designer{
+    font-family: Roboto;
+    color: #B99BB6;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 75px;
+}
+
+.california{
+    font-family: Cormorant Garamond;
+    color: #5F4D5D;
+    font-size: 26px;
+}
+
+.radius {
+    font-family: Roboto;
+    color: #B99BB6;
+    font-size: 11px;
+    margin-bottom: 50px;
+    border: 1px solid #B99BB6;
+    width: 141px;
+    height: 45px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background: white;
+}
+
+.profile{
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    display: flex;
+    margin-right: 35px;
+}
+
+.backcolor1, .backcolor2, .backcolor3{
+    margin-left: 37px;
+    background: #CEB3CB;
+    color: white;
+}
+
+.about{
+    font-family: Cormorant Garamond;
+    font-size: 25px;
+    margin-left: 23px;
+    margin-top: 23px;
+}
+
+.learn{
+    font-family: Cormorant Garamond;
+    font-size: 17px;
+    margin-left: 23px;
+    margin-top: 6px;
+}
+
+.beginnings{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    margin-right: 111px;
+}
+
+.text3{
+    padding-right: 22px;
+    margin-left: 173px;
+    text-align: left;
+}
+
+.begin{
+    font-family: Roboto;
+    color: #B99BB6;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.innovate, .drama{
+    font-family: Cormorant Garamond;
+    color: #5F4D5D;
+    font-size: 24px;
+    margin-right: 50px;
+}
+
+.carrer{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    margin-right: 140px;
+}
+
+.text4{
+    margin-left: 100px;
+    width: 400px;
+    text-align: left;
+}
+
+.car{
+    font-family: Roboto;
+    color: #B99BB6;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.collab, .object, .inter{
+    font-family: Cormorant Garamond;
+    color: #5F4D5D;
+    font-size: 24px;
+}
+
+.balysh{
+    margin-left: 144px;
+}
+
+.products{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    margin-right: 111px;
+}
+
+.text5{
+    padding-right: 22px;
+    margin-left: 173px;
+    text-align: left;
+}
+
+.prod{
+    font-family: Roboto;
+    color: #B99BB6;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.power, .cred, .energ{
+    font-family: Cormorant Garamond;
+    color: #5F4D5D;
+    font-size: 24px;
+    margin-right: 50px;
+}
+
+.kreslo, .kreslosecond{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-right: 55px;
+    margin-top: 91px;
+}
+
+.kreslosecond{
+    margin-top: 54px;
+}
+
+.kreslo1, .kreslo2, .kreslo3, .kreslo4, .kreslo5, .kreslo6{
+    margin-left: 26px;
+    margin-bottom: 7px;
+}
+
+.tovar{
+    font-family: Cormorant Garamond;
+    color: #5F4D5D;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.price{
+    font-family: Roboto;
+    color: #B0B0B0;
+    font-size: 16px;
+    margin-top: -20px;
+}
+
+.footer{
+    color: white;
+    background: #D6BBD3;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-right: 150px;
+    height: 235px;
+    margin-top: 55px;
+}
+
+.house, .bigcar, .class{
+    margin-top: 46px;
+    padding-left: 150px;
+}
+
+.safe{
+    font-family: Cormorant Garamond;
+    margin-top: -1px;
+}
+
+.sell{
+    font-family: Roboto;
+    font-size: 15px;
+    margin-top: -13px;
+}
+
+.footer2 {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-family: Cormorant Garamond;
+    background: #C9ADC6;
+    height: 137px;
+}
+
+.nav2{
+    font-size: 19px;
+    flex-direction: row;
+    display: flex;
+    margin-left: 35px;
+}
+
+.nav2 ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.nav2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo2{
+    margin-bottom: 24px;
+    margin-top: 33px;
+    margin-left: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
